@@ -1,0 +1,16 @@
+Installation
+$ npm i -g csvtojson
+
+Usage
+$ csvtojson [options] <csv file path>
+
+Example
+Convert csv file and save result to json file:
+
+$ csvtojson source.csv > converted.json
+Pipe in csv data:
+
+$ cat ./source.csv | csvtojson > converted.json
+Print Help:
+
+$ csvtojson
